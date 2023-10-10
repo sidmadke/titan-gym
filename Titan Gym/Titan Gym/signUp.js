@@ -6,7 +6,7 @@ const signInWithGoogle = () => {
   
     auth.signInWithPopup(googleProvider)
     .then(() => {
-      window.location.assign('#');
+      window.location.assign('/');
     })
     .catch((error) => {
       console.error(error);
