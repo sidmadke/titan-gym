@@ -25,10 +25,13 @@
             <li><a href="#Diet">Diet</a></li>
             <li><a href="#contact">Contact</a></li>
         </ol>
+          <button id="signInWithGoogle" style="background: transparent; outline: none; border: none; display: flex; align-items: center; justify-content: center; gap: 20px; font-size: 20px;">
+            Sign Up With :<img src="./Images/google.svg" width="40px" height="40px" alt="Sign in with your Google account.">
+          </button>
     </div>
-
+    
     <!--Home section-->
-
+    
     <section id="home" class="home view">
         <div class="highlights">
             <h3>feel the power with</h3>
@@ -37,7 +40,7 @@
             <p class="tagline">
                 "Titan Gym: Where Dreams Become Reality."
             </p>
-            <button class="join">join now</button>
+            <button class="join"><a href="#contact">join now</a></button>
         </div>
         <div class="banner"></div>
 
@@ -350,12 +353,15 @@ Core workouts are essential for building a strong and stable core, which provide
             <h2><span>C</span>ontact</h2>
             <h6>If you have any query , Contact Mee!!!</h6>
         </div>
+        <div id="alert">Your details are submitted!</div>
         <div class="content">
-            <form >
-                <input type="text" placeholder="User">
-                <input type="emial" placeholder="emain">
-                <textarea rows="5" placeholder="what's on your mind"></textarea>
+            <form id="contactForm">
+                <input type="text" placeholder="User" id="username">
+                <input type="email" placeholder="email" id="mail">
+                <input type="number" placeholder="Weight(kg)" id="weight">
+                <input type="height" placeholder="Height(cm)" id="height">
                 <br>
+                <input type="tel" name="ContactNo" id="contactNo" placeholder="Mobile Number">
                 <input type="submit" value="send" class="btn">
             </form>
             <div class="bgimg"></div>
@@ -373,6 +379,12 @@ Core workouts are essential for building a strong and stable core, which provide
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./mail.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase/init.js"></script>
+    <script src="./signUp.js"></script>
     <script>
         // Your custom JavaScript code
     </script>
