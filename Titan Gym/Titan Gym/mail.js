@@ -1,13 +1,13 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyBfE3GsKKUeG6fzSbS2vXbtIIIR83xgFec",
-    authDomain: "titan-gym-b11b7.firebaseapp.com",
-    databaseURL: "https://titan-gym-b11b7-default-rtdb.firebaseio.com",
-    projectId: "titan-gym-b11b7",
-    storageBucket: "titan-gym-b11b7.appspot.com",
-    messagingSenderId: "605733658016",
-    appId: "1:605733658016:web:ec1cd5c0007e092387d8c5",
-    measurementId: "G-BT0PMW5JJF"
-  };
+  apiKey: "AIzaSyDYbFOV73vvlYGOi6iJ2yhbinTdkJpxv5E",
+  authDomain: "titan-gym-291d2.firebaseapp.com",
+  databaseURL: "https://titan-gym-291d2-default-rtdb.firebaseio.com",
+  projectId: "titan-gym-291d2",
+  storageBucket: "titan-gym-291d2.appspot.com",
+  messagingSenderId: "371504566030",
+  appId: "1:371504566030:web:85e61b02f78aaedf7a515f",
+  measurementId: "G-VS9NG5S150"
+};
   
   // initialize firebase
   firebase.initializeApp(firebaseConfig);
